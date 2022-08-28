@@ -82,18 +82,18 @@ h2 {
 
 
 .pimg1 {
-    background-image:url(images/pexels-aleksandar-pasaric-325185.jpg);
+    background-image:url(../images/pexels-aleksandar-pasaric-325185.jpg);
     min-height:100%;
 
 }
 
 .pimg2 {
-    background-image:url(images/pexels-maxime-francis-2246476.jpg);
+    background-image:url(../images/pexels-maxime-francis-2246476.jpg);
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image:url(images/pexels-aleksejs-bergmanis-681335.jpg);
+    background-image:url(../images/pexels-aleksejs-bergmanis-681335.jpg);
     min-height: 400px;
 }
 
