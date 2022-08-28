@@ -1,3 +1,139 @@
-body {
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+p {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.navbar {
     background-color: black;
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    opacity: 0.95;
+    top: 0px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+.navLeftMenu {
+    display: flex;
+    flex-basis: 100%;
+    text-align: center;
+    width: 250px;
+}
+.navRightMenu{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navItem {
+    width: 110px;
+    height: 72px;
+    color: lightgray;
+    background-color: transparent;
+    font-family: "Lato", "sans-seriff";
+    font-size: 16px;
+}
+
+.navItem:Hover {
+    background-color: rgb(14, 14, 14);
+}
+
+.navItem:active {
+    background-color: rgb(31, 31, 31)
+}
+
+.navBtn {
+    width: 50px;
+    height: 50px;
+    vertical-align: center;
+    margin-top: 9px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.pimg1 {
+    background-image:url(images/pexels-aleksandar-pasaric-325185.jpg);
+    min-height:100%;
+
+}
+
+.pimg2 {
+    background-image:url(images/pexels-maxime-francis-2246476.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image:url(images/pexels-aleksejs-bergmanis-681335.jpg);
+    min-height: 400px;
+}
+
+section {
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    vertical-align: center;
+}
+
+.section-light {
+    background-color: lightgray;
+}
+
+.section-dark {
+    background-color: #282E34;
+    color: #DDD;
+}
+
+.imTitle {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-transform:uppercase;
+}
+
+.title {
+    background-color: black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.trans {
+    background-color: transparent;
+    color: white;
 }
