@@ -8,6 +8,7 @@ body, html {
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
+    background-color: black;
 }
 
 p {
@@ -26,10 +27,10 @@ h2 {
     width: 100%;
     height: 72px;
     position: fixed;
-    opacity: 0.95;
+    opacity: 0.9;
     top: 0px;
-    border-bottom: 1px solid white;
     display: flex;
+    border-left: 2px solid white;
 }
 
 .navLeftMenu {
@@ -38,11 +39,12 @@ h2 {
     text-align: center;
     width: 250px;
 }
+
 .navRightMenu{
     width: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: right;
 }
 
 .navItem {
@@ -50,12 +52,17 @@ h2 {
     height: 72px;
     color: lightgray;
     background-color: transparent;
-    font-family: "Lato", "sans-seriff";
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400px;
+    transition: background-color 75ms;
+}
+.navHome {
+    margin: 0px;
 }
 
 .navItem:Hover {
     background-color: rgb(14, 14, 14);
+    cursor: pointer;
 }
 
 .navItem:active {
@@ -67,13 +74,28 @@ h2 {
     height: 50px;
     vertical-align: center;
     margin-top: 9px;
+    margin-right: 15px;
+    border-bottom: 2px;
     background-color: transparent;
-    border: 1px solid lightgray;
+    transition: border-bottom 100ms;
 }
+
+.navBtn:hover {
+    border-bottom: 2px groove white;
+    cursor: pointer;
+}
+
+.navLinkedInImg, .navGitImg, .navReedImg {
+    height: 34px;
+    image-rendering: crisp-edges;
+
+}
+
+
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
-    opacity: 0.80;
+    opacity: 0.90;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,19 +104,18 @@ h2 {
 
 
 .pimg1 {
-    background-image:url(../images/pexels-aleksandar-pasaric-325185.jpg);
-    min-height:100%;
-
+    background-image:url(../images/pexels-nemuel-sereti-6424586.jpg);
+    min-height:97%;
 }
 
 .pimg2 {
     background-image:url(../images/pexels-maxime-francis-2246476.jpg);
-    min-height: 400px;
+    min-height: 100%;
 }
 
 .pimg3 {
     background-image:url(../images/pexels-aleksejs-bergmanis-681335.jpg);
-    min-height: 400px;
+    min-height: 100%;
 }
 
 section {
@@ -126,11 +147,18 @@ section {
 
 .title {
     background-color: black;
-    padding-top: 18px;
     padding-bottom: 18px;
+    padding-top: 18px;
     color: white;
     padding-left: 18px;
     padding-right: 18px;
+    border-bottom: 2px solid white;
+}
+
+.titleAccent {
+    width: 200px;
+    height: 3px;
+    background-color: white;
 }
 
 .trans {
