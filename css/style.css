@@ -21,6 +21,7 @@ h2 {
     margin: 0;
 }
 
+/* Navbar Styling */
 
 .navbar {
     background-color: black;
@@ -30,7 +31,6 @@ h2 {
     opacity: 0.9;
     top: 0px;
     display: flex;
-    border-left: 2px solid white;
 }
 
 .navLeftMenu {
@@ -91,7 +91,10 @@ h2 {
 
 }
 
+/*Navbar Styling Over */
 
+
+/*Parralax Styling */
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
@@ -118,6 +121,8 @@ h2 {
     min-height: 100%;
 }
 
+/*Parralax Styling Over
+*/
 section {
     height: 200px;
     text-align: center;
